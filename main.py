@@ -105,7 +105,7 @@ async def check_ban_command(ctx):
             embed.title = "**▌ Banned Account 🛑 **" if lang == "en" else "**▌ Compte banni 🛑 **"
             embed.description = (
                 f"**• {'Reason' if lang == 'en' else 'Raison'} :** "
-                f"{'This account was confirmed for using cheats.' if lang == 'en' else 'Ce compte a été confirmé comme utilisant des hacks.'}\n"
+                f"{'YDK FIH MLKHR.' if lang == 'en' else 'YDK FIH MLKHR.'}\n"
                 f"**• {'Suspension duration' if lang == 'en' else 'Durée de la suspension'} :** {period_str}\n"
                 f"**• {'Nickname' if lang == 'en' else 'Pseudo'} :** `{nickname}`\n"
                 f"**• {'Player ID' if lang == 'en' else 'ID du joueur'} :** `{id_str}`\n"
@@ -118,7 +118,7 @@ async def check_ban_command(ctx):
             embed.title = "**▌ Clean Account ✅ **" if lang == "en" else "**▌ Compte non banni ✅ **"
             embed.description = (
                 f"**• {'Status' if lang == 'en' else 'Statut'} :** "
-                f"{'No sufficient evidence of cheat usage on this account.' if lang == 'en' else 'Aucune preuve suffisante pour confirmer l’utilisation de hacks sur ce compte.'}\n"
+                f"{'TZGL WQ.' if lang == 'en' else 'TZGL WQ.'}\n"
                 f"**• {'Nickname' if lang == 'en' else 'Pseudo'} :** `{nickname}`\n"
                 f"**• {'Player ID' if lang == 'en' else 'ID du joueur'} :** `{id_str}`\n"
                 f"**• {'Region' if lang == 'en' else 'Région'} :** `{region}`"
